@@ -1,0 +1,15 @@
+1)Make a directory structure like this in your home directory
+
+    COMMAND 1 : mkdir demodir
+
+    COMMAND 2 : cd demodir
+
+    COMMAND 3 : mkdir inside_demo also_inside_demo
+
+    COMMAND 4 : cd also_inside_demo
+
+    COMMAND 5 : mkdir abc abc_123
+
+2) Remove the also_inside_demo directory
+
+    COMMAND 1 : rm -r also_inside_demo
