@@ -1,0 +1,35 @@
+							  Spoken Tutorials - Linux Assignment 
+						Funded by the National Mission on Education through ICT
+							 Indian Institute of Technology Bombay,
+								http://spoken-tutorial.org
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+File Attributes
+
+1. Create a file abc.txt and change the ownership of this file to some other user on your machine,
+   and also change the group to family.
+
+    COMMAND 1 : vim abc.txt
+
+    COMMAND 2 : sudo chown Sweeton abc.txt
+
+    COMMAND 3 : sudo groupadd family
+
+    COMMAND 4 : sudo chgrp family abc.txt 
+
+2. Create a file exercise.txt and make it executable.
+
+    COMMAND 1 : vim exercise.txt
+    
+    COMMAND 2 : sudo  chmod =x exercise.txt
+
+3. Create a file test.txt on your desktop and identify its inode number, also create a softlink
+   for test.txt in your home.
+
+    COMMAND 1 : vim test.txt
+
+    COMMAND 2 : ls -i test.txt
+
+    COMMAND 3 : ln -s /home/test.txt /home/test1.txt
+
+    COMMAND 4 : ls -li /home/test.txt /home/test1.txt
