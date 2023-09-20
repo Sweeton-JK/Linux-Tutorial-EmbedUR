@@ -1,0 +1,52 @@
+							  Spoken Tutorials - Linux Assignment 
+						Funded by the National Mission on Education through ICT
+							 Indian Institute of Technology Bombay,
+								http://spoken-tutorial.org
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Basics Of System Administration in Linux
+
+
+1) Create a new user account and home directory called "Duck" 
+
+    COMMAND 1 : sudo adduser Duck
+
+    COMMAND 2 : ls /home/
+
+2) Set the user account "Duck's" expirey date as 07 - 01 - 2015
+
+    COMMAND : sudo usermod -e 2015-01-07 Duck
+
+3) find the id of the user account "Duck"
+
+    COMMAND : id -u Duck
+
+4) Type df and du commands and see the output on your terminal.
+
+    COMMAND 1 : df
+
+    Filesystem     512-blocks      Used Available Capacity iused      ifree %iused  Mounted on
+    /dev/disk3s1s1  478724992  17697056 245783152     7%  355382 1228915760    0%   /
+    devfs                 397       397         0   100%     688          0  100%   /dev
+    /dev/disk3s6    478724992        40 245783152     1%       0 1228915760    0%   /System/Volumes/VM
+    /dev/disk3s2    478724992   9103120 245783152     4%     848 1228915760    0%   /System/Volumes/Preboot
+
+    COMMAND 2 : du
+
+    40	./Library/Application Support/Google/Chrome/TrustTokenKeyCommitments
+    3901688	./Library/Application Support/Google/Chrome
+    3901760	./Library/Application Support/Google
+    du: ./Library/Application Support/CallHistoryTransactions: Operation not permitted
+
+5) Type this command on the terminal and see the output :
+   du -ch *.txt
+
+    OUTPUT:
+
+    72K	Documents/Academics/Semester 6/Full Stack Development/Laboratory/Exercise 10/books/node_modules/object.hasown
+    8.0K	Documents/Academics/Semester 6/Full Stack Development/Laboratory/Exercise 10/books/node_modules/aria-query/lib/util
+    48K	Documents/Academics/Semester 6/Full Stack Development/Laboratory/Exercise 10/books/node_modules/aria-query/lib/etc/roles/abstract
+
+6) Delete the user account "Duck" permanently along with its home folder.
+
+    COMMAND : sudo userdel -r Duck
