@@ -1,0 +1,15 @@
+1) Explore some other commands like -E, + and ?
+    
+    COMMADN 1 : grep -E "where" Answer.txt
+
+    OUTPUT : 
+
+        COMMAND : "where" is man
+
+    COMMAND 2 : grep -i "ab+c" Answer.txt
+
+    It matches abc, abbc and goes on (1 or more occurences)
+
+    COMMAND 3 : grep -i "ab?c" Answer.txt
+
+    It matches ac, abc but not abbc (may or may not)
