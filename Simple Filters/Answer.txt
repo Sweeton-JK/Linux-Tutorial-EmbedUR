@@ -1,0 +1,41 @@
+Title of script: Simple Filters's Assignment
+Author: Balasubramaniam S N
+Keywords: Simple Filter's Assignment
+
+Assignment ii 1. Try to get the first 10 lines from /etc/passwd
+
+              COMMAND : head /etc/passwd
+
+              2. try to get just the first 3 lines from /etc/passwd
+
+              COMMAND : head -n5 /etc/passwd
+
+Assignment ii 1. Try to get the Last 10 lines from /etc/passwd
+
+              COMMAND : tail etc/passwd
+
+              2. Try to get just the Last 3 lines from /etc/passwd
+
+              COMMAND : tail -n3 etc/passwd
+
+              3. Try to follow the log file /var/log/auth.
+              
+              COMMAND : cat /var/log/auth 
+
+Assignment ii 1. Try to sort the file /etc/passwd in assending order.
+
+              COMMAND : sort -n /etc/passwd
+
+              2. Try to sort the file /etc/passwd in decending order.
+
+              COMMAND : sort -rn /etc/passwd
+
+              3. Try to sort the file /etc/passwd in assending order based on the 3rd
+              column.
+
+              COMMAND : sort /etc/passwd -t " " -k2
+
+              4. Try to sort the file /etc/passwd in assending order based on the 3rd
+              column and ask sort to look at the thrid column as a whole number.
+
+              COMMAND : sort -n /etc/passwd -t " " -k3
