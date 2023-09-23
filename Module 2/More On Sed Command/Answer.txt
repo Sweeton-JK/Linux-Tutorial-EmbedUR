@@ -1,0 +1,7 @@
+1) Use the same text file seddemo.txt
+
+    COMMAND : vim seddemo.txt
+
+2) Try to replace or substitute name Ankit with Ashish
+
+    COMMAND : sed 'Ankit/s/Ashish' seddemo.txt
