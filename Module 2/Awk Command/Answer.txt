@@ -1,0 +1,10 @@
+							  Spoken Tutorials - Linux AWK Assignment 
+						Funded by the National Mission on Education through ICT
+							 Indian Institute of Technology Bombay,
+								http://spoken-tutorial.org
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Basics of AWK
+
+1. Display roll no., stream and marks of Ankit Saraf from the file awkdemo.txt.
+
+    COMMAND : awk -F "|" '/Ankit Saraf/ {print $1,$3,$6}' awkdemo.txt
