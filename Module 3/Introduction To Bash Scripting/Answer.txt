@@ -1,0 +1,12 @@
+					Spoken Tutorials - Bash Assignment 
+				Funded by the National Mission on Education through ICT
+				       Indian Institute of Technology Bombay,
+					       http://spoken-tutorial.org
+-------------------------------------------------------------------------------------------------------------------
+Introduction to Bash
+
+1) Write a simple Bash shell script to display the message "Welcome to Bash learning" and "***************" on separate lines. 
+
+    COMMAND : #!/bin/bash
+              echo "Welcome to Bash learning\n"
+              echo "***************"
