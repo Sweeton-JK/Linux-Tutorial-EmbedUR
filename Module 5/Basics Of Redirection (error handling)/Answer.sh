@@ -15,7 +15,7 @@
 
 #!/bin/bash
 
-    gcc Progrem.c -o sample
+    gcc Program.c -o sample
 
     ./sample > output.txt 2> error.txt
 
